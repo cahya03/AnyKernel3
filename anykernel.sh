@@ -25,13 +25,6 @@ ramdisk_compression=auto;
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
 
-## AnyKernel file attributes
-# set permissions/ownership for included ramdisk files
-chmod -R 750 $ramdisk/*;
-chown -R root:root $ramdisk/*;
-# set as executable
-chmod 755 $ramdisk/init.icecold.sh;
-
 ## AnyKernel install
 dump_boot;
 
