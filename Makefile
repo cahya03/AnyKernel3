@@ -1,4 +1,4 @@
-NAME := PureCAFx-Kernel
+NAME := Jeongyeon-Kernel
 
 CODE := Mido
 
