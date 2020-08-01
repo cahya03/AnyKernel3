@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Jeongyeon Kernel for Xiaomi Redmi Note 4(x) Snapdragon
+kernel.string=Blue Flower Kernel for Xiaomi Redmi Note 4(x) Snapdragon
 do.devicecheck=1
 do.modules=0
 do.systemless=1
